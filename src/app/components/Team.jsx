@@ -39,7 +39,7 @@ const Team = () => {
       twitterHandle: "https://twitter.com/Jas0nly"
     },
     {
-      imageHref: "/assets/team/Jam.png",
+      imageHref: "/assets/team/jam.png",
       name: "Jam",
       role: "Head Writer",
       twitterHandle: "https://twitter.com/jamrdg"
