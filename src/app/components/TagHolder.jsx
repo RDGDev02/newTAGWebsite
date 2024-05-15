@@ -42,7 +42,6 @@ const TagHolder = () => {
               <h2 className="text-lg font-semibold mb-2 gamma__gradient">GAMMA</h2>
               <p className='text-gray-300 pb-5 font-normal'>NFT holder Tier 1 with 1 to 6 foxes in a den, you are privileged to have the following benefits:</p>
               <p className='text-gray-300 pb-5'>Scholarship Raffle Entry for Future P2E Games.</p>
-              <p className='text-gray-300 pb-5'>2% Profit Share to TAG Revenue Drops.</p>
           </motion.div>
 
 
@@ -60,7 +59,6 @@ const TagHolder = () => {
               <h2 className="text-lg font-semibold mb-2 beta__gradient">BETA</h2>
                <p className='text-gray-300 pb-5'>NFT holder Tier 2 with 7 to 10 foxes in a den, you will be given the following benefits:</p>
                <p className='text-gray-300 pb-5'>Scholarship Raffle Entry for Future P2E Games</p>
-              <p className='text-gray-300 pb-5'>3% Profit Share to TAG revenue Drops.</p>
           </motion.div>
 
           <motion.div 
@@ -77,7 +75,6 @@ const TagHolder = () => {
               <h2 className="text-lg font-semibold mb-2 alpha__gradient">ALPHA</h2>
                <p className='text-gray-300 pb-5'>NFT holder Tier 3 with at least 11 foxes in a den, you are guaranteed the following benefits:</p>
                <p className='text-gray-300 pb-5'>Private and Pre-sale Access to All Future Drops.</p>
-              <p className='text-gray-300 pb-5'>Guaranteed Scholarship Slot on Future P2E Games and 5% Profit Share to TAG Revenue Drops.</p>
           </motion.div>
 
           </div>

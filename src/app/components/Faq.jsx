@@ -171,7 +171,7 @@ const Faq = () => {
             <div>
               <div className="question-align">
                 <h4 className="question-style text-white">
-                What is TAG’s unique benefit to holders?
+                What exclusive drops will we get?
                 </h4>
                 <FiPlus
                   className={activeSections.includes(5) ? 'question-icon rotate' : 'question-icon'}
@@ -182,7 +182,7 @@ const Faq = () => {
                 className={activeSections.includes(5) ? 'answer answer-divider' : 'answer'}
               >
                 <p>
-                Tails of the AfterGlow allots 10% of its revenue, including revenue from P2E games and merchandise sales, to the holders. This amount is further subdivided into 5%, 3%, and 2% shares for Alpha, Beta, and Gamma respectively. The distributions are made twice a year, every six months.
+                Tails of the AfterGlow holders have the opportunity to access limited merchandise drops and participate in our NFT and whitelist giveaways.
                 </p>
                 </div>
             </div>
@@ -211,9 +211,7 @@ const Faq = () => {
                 className={activeSections.includes(7) ? 'answer answer-divider' : 'answer'}
               >
                 <p>
-                The collection can be found on the secondary market –
-OpenSea
-If you are interested, some may be selling theirs on it. However, we encourage holders to tame your mysterious, dope-looking foxes until you experience all the privileges you will get along with them.
+                The collection can be found on the secondary market – <a href='https://magiceden.io/collections/polygon/0xe7b94a3208111a595a27634ca68d2210e674a7e6' target='_black' className='text-orange-500'>MagicEden</a>. If you are interested, some may be selling theirs on it. However, we encourage holders to tame your mysterious, dope-looking foxes until you experience all the privileges you will get along with them.
                 </p>
                 </div>
             </div>
