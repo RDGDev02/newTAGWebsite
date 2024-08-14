@@ -1,5 +1,7 @@
-import React from 'react'
+"use client"
 
+import React from 'react'
+import { useEffect, useState } from 'react';
 import Nav from './components/NavHome'
 import Hero from './components/Hero'
 import Story from './components/Story'
@@ -10,8 +12,36 @@ import Faq from './components/Faq'
 import Team from './components/Team'
 import Footer from './components/Footer'
 
+const Loading = () => (
+  <div className="loading-screen">
+    <img
+      src='/assets/loader.gif'
+      width={200}
+      height={200}
+      alt="Fox Head"
+      className="relative object-scale-down"
+    />
+  </div>
+);
+
 const Home = () => {
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Simulate a loading time of 2 seconds. Adjust as needed.
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
+    <>
+      {isLoading ? (
+          <Loading />
+        ) : (
+   
     <>
     <div className={`sm:px-16 px-6 flex justify-center items-center w-full fixed z-10 shadow-md backdrop-filter backdrop-blur-lg bg-transparent `}>
         <div className={`xl:max-w-[1600px] w-full`}>
@@ -50,6 +80,8 @@ const Home = () => {
       </div>
   </div>
   <Footer />
+  </>
+)}
   </>
   )
 }
