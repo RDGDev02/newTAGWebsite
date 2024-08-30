@@ -9,7 +9,7 @@ const Footer = () => {
                     <p> #TAGLife</p>
                 </div>
                 <div className="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-                    <p className="order-2 md:order-1 mt-8 md:mt-0">Copyright  &copy;  2023 TAG by Real Deal Guild</p>
+                    <p className="order-2 md:order-1 mt-8 md:mt-0">Copyright  &copy;  2024 TAG by Real Deal Guild</p>
                     <div className="order-1 md:order-2">
                         <a href="#home" className="px-2">Home</a>
                         <a href="#story" className="px-2 border-l scroll-mt-5">Story</a>
