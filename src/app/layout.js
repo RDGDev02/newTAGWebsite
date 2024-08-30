@@ -18,19 +18,19 @@ export const metadata = {
   openGraph: {
     title: 'TAG',
     description: 'Tails of the Afterglow is a unique collection of 4,266 dope foxes roaming around the grounds of Polygon Blockchain.',
-    url: 'https://nextjs.org',
-    siteName: 'Next.js',
+    url: 'https://tailsafterglow.io/',
+    siteName: 'TAG',
     images: [
       {
-        url: 'https://realdealguild.io/img/logo/logoNew.png', // Must be an absolute URL
+        url: 'https://tailsafterglow.vercel.app/assets/img/rdgNFT/hero-bg2.jpg', // Must be an absolute URL
         width: 800,
         height: 600,
       },
       {
-        url: 'https://realdealguild.io/img/logo/logoNew.png', // Must be an absolute URL
+        url: 'https://tailsafterglow.vercel.app/assets/img/rdgNFT/hero-bg2.jpg', // Must be an absolute URL
         width: 1800,
         height: 1600,
-        alt: 'My custom alt',
+        alt: 'TAG',
       },
     ],
     locale: 'en_US',

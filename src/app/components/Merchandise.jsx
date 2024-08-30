@@ -51,7 +51,7 @@ const Merchandise = () => {
                   <div className="absolute bottom-[5rem] right-0 p-4">
                     <Link href="https://shopee.ph/TAG-Limited-Edition-Shirt-(White)-i.970931907.22573324032?sp_atk=b2ed445d-8d58-4a6e-9965-8e961a587b67&xptdk=b2ed445d-8d58-4a6e-9965-8e961a587b67"
                       target="_blank">
-                      <img src="/assets/buy-now-white.png" alt="Buy Now" className="h-20 w-20" />
+                      {/* <img src="/assets/buy-now-white.png" alt="Buy Now" className="h-20 w-20" /> */}
                     </Link>
                   </div>
                   <p className='text-gray-300 text-center pt-2'>TAG Limited Edition Shirt (White)</p>
@@ -79,7 +79,7 @@ const Merchandise = () => {
                   <div className="absolute bottom-[5rem] right-0 p-4">
                     <Link href="https://shopee.ph/TAG-Limited-Edition-Shirt-(Black)-i.970931907.21681707488?sp_atk=822493e3-ee09-42d6-a3a4-7bf08586a408&xptdk=822493e3-ee09-42d6-a3a4-7bf08586a408"
                       target="_blank">
-                      <img src="/assets/buy-now-black.png" alt="Buy Now" className="h-20 w-20" />
+                      {/* <img src="/assets/buy-now-black.png" alt="Buy Now" className="h-20 w-20" /> */}
                     </Link>
                   </div>
                   <p className='text-gray-300 text-center pt-2'>TAG Limited Edition Shirt (Black)</p>
@@ -107,7 +107,7 @@ const Merchandise = () => {
 
                   <div className="absolute bottom-[5rem] right-0 p-4">
 
-                    <img src="/assets/soldOut.png" alt="Buy Now" className="h-20 w-20" />
+                   {/* <img src="/assets/soldOut.png" alt="Buy Now" className="h-20 w-20" /> */}
                   </div>
                   <p className='text-gray-300 text-center pt-2'>TAG Limited Edition Sticker Pack</p>
                 </div>
